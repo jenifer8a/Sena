@@ -1,0 +1,30 @@
+<h2>Listado de profesores</h2>
+<table>
+  <thead>
+    <tr>
+       <th>Nombre</th>
+       <th>Correo</th>
+       <th>Fecha de nacimiento</th>
+       <th>Programa</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Peppa</td>
+      <td>peppa@sena.com</td>
+      <td>07/22/1990</td>
+      <td>Diseño de modas</td>
+    </tr>
+  </tbody>
+
+<tbody>
+  <% @teachers.each do |teacher| %>
+      <tr>
+        <td><%= teacher.nombre %></td>
+        <td><%= teacher.correo %></td>
+        <td><%= teacher.fecha_nacimiento %></td>
+        <td><%= teacher.programa %></td>
+      </tr>
+      <% end %>
+</tbody>
+</table>
