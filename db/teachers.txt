@@ -1,6 +1,0 @@
-pepito,moda,31/01/1991,a@a.com
-pepito,moda,31/01/1991,a@a.com
-pepito,moda,31/01/1991,a@a.com
-pepito,moda,31/01/1991,a@a.com
-pepito,moda,31/01/1991,a@a.com
-pepito,moda,31/01/1991,a@a.com
